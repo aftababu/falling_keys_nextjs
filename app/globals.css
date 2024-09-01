@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to a global CSS file or Tailwind's extended utilities */
+.falling-key {
+  transition: top 0.3s ease-in-out;
+}
+
+.highlight-key {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+  color: white;
+}
+
